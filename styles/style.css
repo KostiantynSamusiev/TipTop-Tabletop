@@ -1,0 +1,992 @@
+body {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
+}
+
+.tshirt_info {
+    background: url(../image/tshirt-desktop-background.jpeg) 50% / cover no-repeat;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tshirt_info_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
+/* promotion_header start */
+
+.promotion_disount {
+    background: #4e67ed;
+    padding: 13px 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.price_discount {
+    display: flex;
+    justify-content: space-evenly;
+    background: #edb72b;
+    padding: 7px 20px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    align-items: center;
+    text-align: right;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.old-price {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: line-through;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    background: #ff4e4e;
+    padding: 8px 5px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 9px 9px;
+}
+
+/* promotion_header header end  */
+.gender_navigation_links {
+    display: none;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.discription {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.zsu_supprot {
+    font-family: 'Radio Canada', sans-serif;
+
+    font-weight: 400;
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 41px;
+    margin-left: 50%;
+    margin-right: 17px;
+}
+
+.gender_selection {
+    text-align: center;
+    background: #4e67ed;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    vertical-align: middle;
+    padding-bottom: 55px;
+    margin-bottom: 40px;
+}
+
+.t-shirt-amount {
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 0.5;
+    padding-top: 15px;
+    padding-left: 17px;
+    padding-bottom: 22px;
+    text-align: left;
+}
+
+.gender_selection a {
+    font-weight: 400;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.gender_choose a:hover {
+    background: #edb72b;
+}
+
+/* Benefits styles start*/
+.benefits_cards {
+    display: flex;
+    margin-bottom: 45px;
+    padding: 0 17px;
+    justify-content: space-between;
+
+}
+
+.benefits_card {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.benefits_card-pic {
+    border-right: 1px solid #B4B4B4;
+    margin-bottom: 12px;
+}
+
+.benefits_card:first-child>.benefits_card-pic {
+    border-left: 1px solid #B4B4B4;
+}
+
+.benefits_card img {
+    width: 100%;
+}
+
+.benefits_option {
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+
+
+/* Benefits styles end*/
+
+/* buy_card style start */
+
+.buy_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 335px;
+    background-color: #eeeeee;
+    text-align: center;
+    border: grey solid 1px;
+    margin-bottom: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.buy_card_container {
+    margin: 0 auto;
+}
+
+.buy_card.wraper {
+    margin-bottom: 20px;
+}
+
+.buy_card_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardname {
+    align-self: flex-start;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.card_size {
+    align-self: flex-start;
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+
+.card_discount {
+    align-self: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+
+.card_prie {
+    align-self: center;
+    padding-left: 10px;
+}
+
+.buy_card img {
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.tshirt_stock {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ff4e4e;
+    padding-bottom: 10px;
+}
+
+.card_btn {
+    align-self: flex-end;
+    height: 40px;
+    min-width: 197px;
+    color: white;
+    background-color: #4e67ed;
+    border: none;
+    /* margin-right: 24px; */
+}
+
+.wraper {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+.card_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    align-self: flex-end;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: black;
+}
+
+.circle2 {
+    background-color: white;
+}
+
+.circle3 {
+    background-color: white;
+}
+
+.circle4 {
+    background-color: black;
+}
+
+.circle5 {
+    background-color: black;
+}
+
+.circle6 {
+    background-color: white;
+}
+
+.circle7 {
+    background-color: white;
+}
+
+.circle8 {
+    background-color: black;
+}
+
+.card_bottom .color {
+    align-self: flex-end;
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* buy_card style end */
+
+/* Promotion first style start */
+
+.promotion_info {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.buy_more_than {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4e67ed;
+}
+
+.buy_now {
+    height: 45px;
+    width: 100%;
+    color: white;
+    background-color: #4e67ed;
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+/* Promotion first style end */
+
+/* <!-- About author  strart --> */
+
+.about_author_container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.about_author_container:after,
+.about_author_container:before {
+    background: url('../image/Vector.png') no-repeat;
+    content: "";
+    width: 220px;
+    height: 180px;
+    position: absolute;
+    z-index: -1;
+}
+
+.about_author_container:after {
+    left: 0;
+    top: 0;
+    left: 5%;
+}
+
+.about_author_container:before {
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+    right: 5%;
+}
+
+.about_athor {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #282828;
+    margin-bottom: 40px;
+}
+
+.about_author_info {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 170%;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.right_part {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+}
+
+.right_part p {
+    margin-bottom: 15px;
+}
+
+.author_name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 170%;
+    font-weight: bold;
+}
+
+/*  About author  end  */
+
+/* News links style start */
+.news_title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    /* or 22px */
+
+    text-align: center;
+
+    /* Черный */
+
+    color: #282828;
+}
+
+.rev_slider {
+    margin-bottom: 80px;
+}
+
+.rev_slider img {
+    margin: 0 auto;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+.slider {
+    text-align: center;
+}
+
+.news_link {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #4e67ed;
+}
+
+/* custom slik start*/
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 50px;
+    color: black;
+}
+
+.slick-next:before {
+    font-family: "FontAwesome", "Font Awesome 5 Brands", "Font Awesome 6 Free";
+    content: "\f105";
+}
+
+.slick-prev:before {
+    font-family: "FontAwesome", "Font Awesome 5 Brands", "Font Awesome 6 Free";
+    content: "\f104";
+}
+
+.slick-prev {
+    left: 40px;
+}
+
+.slick-next {
+    right: 40px;
+}
+
+/* News links style end */
+
+/* Comments block start  */
+
+.comment_container {
+    background-color: #eeeeee;
+    padding: 0 38px;
+}
+
+.block_coments {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 165px;
+    position: relative;
+    padding: 0 16px;
+    padding-top: 30px;
+}
+
+.block_coments .slick-list {
+    padding-top: 30px;
+}
+
+.coment_of_the_week {
+    display: inline-block;
+    background-color: #4e67ed;
+    align-self: center;
+    padding: 0 10px;
+    transform: translate(0, -50%);
+    line-height: 45px;
+    min-width: 270px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.comment_container {
+    text-align: center;
+}
+
+.comment_content {
+    text-align: left;
+}
+
+.photo_comentator {
+    margin-bottom: 20px;
+}
+
+.photo_comentator img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.name_comentator {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+
+.comment {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #a7a7a7;
+    margin-bottom: 30px;
+}
+
+.comment_date {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    border-top: 1px solid #000000;
+    padding-top: 14px;
+}
+
+.block_coments .slick-prev,
+.block_coments .slick-next {
+    top: 110%;
+}
+
+/* Comments block end  */
+
+/*Promotion second start*/
+.promotion_info2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 25px;
+}
+
+/*Promotion second end*/
+
+
+
+.promotion_container2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/* Contact form start*/
+.contact_form {
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+.contact_form_name input[type="text"],
+.contact_form_message textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border: #a7a7a7 solid 1px;
+}
+
+.contact_form_name input[type="text"] {
+    height: 45px;
+    margin-bottom: 16px;
+}
+
+.contact_form_name input::placeholder,
+.contact_form_message textarea::placeholder {
+    color: #B4B4B4;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 17px;
+    padding-top: 14px;
+}
+
+
+
+
+.contact_form_message textarea {
+    font-family: 'Radio Canada', sans-serif;
+    margin-bottom: 25px;
+    height: 108px;
+}
+
+.btn {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #4e67ed;
+    border: none;
+}
+
+/* Contact form end*/
+
+/*footer start*/
+
+
+.company_name {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    color: #a7a7a7;
+    padding: 20px 0;
+    border-top: #b4b4b4 solid 1px;
+
+}
+
+/*footer end*/
+
+/* size for tablet */
+@media (min-width: 767px) {
+
+    .wraper {
+        margin: 0 auto;
+        max-width: 1440px;
+        padding: 0 35px;
+    }
+
+
+    .benefits_cards {
+        padding: 0 40px;
+        margin-bottom: 70px;
+    }
+
+    .benefits_card-pic {
+        margin-bottom: 5px;
+    }
+
+    .tshirt_info_top {
+        margin-left: 0;
+    }
+
+    .promotion_header {
+        padding-left: 35px;
+    }
+
+    .tshirt_info {
+        height: 1023px;
+    }
+
+    .gender_navigation_links {
+        display: show;
+    }
+
+    .gender_navigation {
+        align-self: flex-end;
+        margin-bottom: auto;
+    }
+
+    .gender_navigation_links {
+        margin-right: 9px;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .gender_navigation_links a {
+        padding-left: 34px;
+        padding-right: 34px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .discription {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 100%;
+    }
+
+    .zsu_supprot {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        width: 333px;
+    }
+
+    .gender_selection {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 140%;
+    }
+
+    .t-shirt-amount {
+        padding-left: 35px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+
+
+    .benefits_option {
+        font-family: "Radio Canada"sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .buy_card_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+
+    .promotion_container {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .promotion_container p {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+    }
+
+    .about_author_container h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        text-align: center;
+        padding-left: 36px;
+        padding-right: 36px;
+        margin-bottom: 75px;
+    }
+
+    .about_author_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        justify-content: space-evenly;
+    }
+
+
+
+    .news_title {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .about_author_container .right_part,
+    .about_author_container .left_part {
+        width: 48%;
+    }
+
+    .promotion_container2,
+    .contact_form {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .rev_slider {
+        width: 350px;
+    }
+
+    .comment_content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    .block_coments {
+        padding: 0 35px;
+    }
+
+    .block_coments .left_part {
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .block_coments .right_part {
+        width: 60%;
+        flex: 1;
+    }
+
+    .promotion_info2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 100%;
+    }
+
+    .buy_now {
+        width: auto;
+        min-width: 335px;
+
+    }
+
+
+
+    .contact_form_message textarea {
+        height: 45px;
+    }
+
+    .footer {
+        padding: 0 35px;
+    }
+
+    .page_footer {
+        padding: 0 35px;
+    }
+
+
+}
+
+/* size for desktop */
+@media (min-width: 1080px) {
+    .promotion_header {
+        padding-left: 100px;
+        margin-top: 40px;
+    }
+
+    .discription {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .tshirt_info {
+        height: 806px;
+    }
+
+    .gender_navigation_links {
+        margin-right: 72px;
+        margin-top: 52px;
+    }
+
+    .discription {
+        width: 80%;
+        margin: 0 auto;
+        align-self: center;
+        margin-bottom: 55px;
+    }
+
+    .zsu_supprot {
+        width: 333px;
+    }
+
+    .t-shirt-amount {
+        padding-left: 100px;
+    }
+
+
+    .benefits_cards {
+        padding: 0 100px;
+    }
+
+    .benefits_card {
+        padding-bottom: 0;
+        margin-bottom: 45px;
+    }
+
+    .buy_card_container {
+        margin-bottom: 80px;
+    }
+
+    .about_author_info {
+        width: 334px;
+    }
+
+    .left_part {
+        text-align: -webkit-center;
+    }
+
+    .slick-list {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .block_coments {
+        max-width: 1600px;
+        margin: 0 auto;
+        margin-bottom: 120px;
+    }
+
+    .block_coments .slick-prev,
+    .block_coments .slick-next {
+        top: 55%;
+    }
+
+    .block_coments .slick-next {
+        right: 100px;
+    }
+
+    .block_coments .slick-prev {
+        left: 100px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+
+    .page_footer {
+        padding: 0 100px;
+    }
+
+    .promotion_container2 {
+        flex-basis: 40%;
+        /* margin-left: 35px;
+        margin-right: 35px; */
+    }
+
+    .contact_form {
+        flex-basis: 40%;
+    }
+}
