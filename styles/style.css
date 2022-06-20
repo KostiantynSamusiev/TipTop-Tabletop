@@ -4,7 +4,7 @@ body {
 }
 
 .tshirt_info {
-    background: url(../image/tshirt-desktop-background.jpeg) 50% / cover no-repeat;
+    background: url(../image/tshirt-desktop-background.png) 50% / cover no-repeat;
     min-height: 700px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,6 @@ body {
 /* promotion_header start */
 
 .promotion_disount {
-    font-family: 'OpenSans-Regular', sans-serif;
     font-weight: 100;
     background: #4e67ed;
     padding: 13px 30px;
@@ -666,7 +665,6 @@ body {
 
 
 .contact_form_message textarea {
-    font-family: 'Radio Canada', sans-serif;
     margin-bottom: 25px;
     height: 108px;
 }
@@ -787,7 +785,6 @@ body {
 
 
     .benefits_option {
-        font-family: "Radio Canada"sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 13px;
