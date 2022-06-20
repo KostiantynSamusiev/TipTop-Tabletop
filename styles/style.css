@@ -22,10 +22,11 @@ body {
 /* promotion_header start */
 
 .promotion_disount {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-weight: 100;
     background: #4e67ed;
     padding: 13px 30px;
     font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 18px;
     align-items: center;
