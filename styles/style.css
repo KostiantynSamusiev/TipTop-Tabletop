@@ -1,6 +1,6 @@
 body {
-    font-family: 'Radio Canada', sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto-Regular', sans-serif;
+
 }
 
 .tshirt_info {
@@ -36,6 +36,7 @@ body {
 }
 
 .price_discount {
+    font-family: Roboto-Bold;
     display: flex;
     justify-content: space-evenly;
     background: #edb72b;
@@ -95,8 +96,7 @@ body {
 }
 
 .zsu_supprot {
-    font-family: 'Radio Canada', sans-serif;
-
+    font-family: 'Roboto-Regular', sans-serif;
     font-weight: 400;
     text-align: left;
     font-weight: 700;
@@ -176,6 +176,7 @@ body {
 }
 
 .benefits_option {
+    font-family: Roboto-Bold;
     font-size: 9px;
     line-height: 11px;
     text-transform: uppercase;
@@ -216,6 +217,8 @@ body {
 }
 
 .cardname {
+    margin-right: 60px;
+    font-family: Roboto-Bold;
     align-self: flex-start;
     padding-bottom: 5px;
     font-weight: 600;
@@ -226,7 +229,7 @@ body {
 
 .card_size {
     align-self: flex-start;
-    padding-left: 25px;
+    /* padding-left: 25px; */
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
@@ -265,6 +268,7 @@ body {
 }
 
 .card_btn {
+    font-family: 'Roboto-Regular', sans-serif;
     align-self: flex-end;
     height: 40px;
     min-width: 197px;
@@ -337,6 +341,7 @@ body {
 /* Promotion first style start */
 
 .promotion_info {
+    font-family: 'Roboto-Bold';
     font-weight: 700;
     font-size: 20px;
     line-height: 120%;
@@ -356,6 +361,7 @@ body {
 }
 
 .buy_now {
+    font-family: 'Roboto-Regular', sans-serif;
     height: 45px;
     width: 100%;
     color: white;
@@ -373,11 +379,17 @@ body {
 /* <!-- About author  strart --> */
 
 .about_author_container {
+
     display: flex;
     flex-direction: column;
     margin-bottom: 60px;
     padding-top: 50px;
     position: relative;
+
+}
+
+.about_athor {
+    font-family: Roboto-Bold;
 }
 
 .about_author_container:after,
@@ -565,6 +577,7 @@ body {
 }
 
 .name_comentator {
+    font-family: Roboto-Bold;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
@@ -599,6 +612,7 @@ body {
 
 /*Promotion second start*/
 .promotion_info2 {
+    font-family: 'Roboto-Bold';
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
@@ -617,6 +631,7 @@ body {
 
 /* Contact form start*/
 .contact_form {
+    font-family: Roboto-Bold;
     margin-bottom: 50px;
     margin-right: 10px;
     margin-left: 16px;
@@ -624,6 +639,8 @@ body {
 
 .contact_form_name input[type="text"],
 .contact_form_message textarea {
+    padding: 0;
+    font-family: Roboto-Bold;
     box-sizing: border-box;
     width: 100%;
     border: #a7a7a7 solid 1px;
@@ -636,6 +653,7 @@ body {
 
 .contact_form_name input::placeholder,
 .contact_form_message textarea::placeholder {
+    font-family: Roboto-Bold;
     color: #B4B4B4;
     font-weight: 400;
     font-size: 13px;
@@ -654,6 +672,7 @@ body {
 }
 
 .btn {
+    font-family: 'Roboto-Regular', sans-serif;
     display: inline-block;
     height: 40px;
     width: 100%;
@@ -886,6 +905,10 @@ body {
 
 /* size for desktop */
 @media (min-width: 1080px) {
+    .zsu_supprot {
+        margin-bottom: 85px;
+    }
+
     .promotion_header {
         padding-left: 100px;
         margin-top: 40px;
