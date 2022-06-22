@@ -697,7 +697,6 @@ body {
 .contact_form_name input[type="text"],
 .contact_form_message textarea {
     font-family: unset;
-
     padding: 0;
     box-sizing: border-box;
     width: 100%;
