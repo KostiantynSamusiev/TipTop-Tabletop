@@ -99,7 +99,8 @@ body {
     padding-right: 17px;
 }
 
-.zsu_supprot {
+.zsu_supprot,
+.original-tshirts {
     font-family: 'Roboto-Regular', sans-serif;
     font-weight: 400;
     text-align: left;
@@ -111,6 +112,14 @@ body {
     margin-bottom: 41px;
     margin-left: 50%;
     margin-right: 17px;
+}
+
+.original-tshirts {
+    background: #edb72c;
+    font-size: 11px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: fit-content;
 }
 
 .gender_selection {
@@ -141,6 +150,10 @@ body {
     text-align: center;
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+.gender_choose {
+    padding-top: 40px;
 }
 
 .gender_choose a:hover {
@@ -210,6 +223,10 @@ body {
 
 .buy_card_container {
     margin: 0 auto;
+}
+
+.buy_card>img {
+    height: 215px;
 }
 
 .buy_card.wraper {
@@ -681,6 +698,7 @@ body {
 
 
 .promotion_container2 {
+    margin-bottom: 80px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -790,6 +808,10 @@ body {
 
     .tshirt_info {
         height: 1023px;
+    }
+
+    .original-tshirts {
+        font-size: 20px;
     }
 
     .gender_navigation_links {
@@ -912,6 +934,10 @@ body {
         margin-right: initial;
     }
 
+    .promotion_container2 {
+        margin-bottom: 110px;
+    }
+
     .promotion_container2,
     .contact_form {
         margin-left: 0;
@@ -947,6 +973,7 @@ body {
     }
 
     .promotion_info2 {
+
         font-weight: 700;
         font-size: 30px;
         line-height: 100%;
